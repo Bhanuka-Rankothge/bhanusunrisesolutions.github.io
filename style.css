@@ -1,0 +1,82 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav{
+    margin-bottom: 20px;
+}
+
+.navbar-collapse{
+    margin-left: 20%;
+}
+
+.h1{
+    font-size: 80px;
+    line-height: 100px;
+    text-align: center;
+    margin-top:30%;
+    margin-bottom: 20%;
+}
+
+#home{
+    background-image: url(imgages/bg.png);
+    background-size: cover;
+    margin-top: 0;
+}
+
+#about{
+    /*
+    background-image: url(imgages/bg2.png);
+    background-size: cover;*/
+
+}
+
+#our-team {
+    font-size: 80px;
+    line-height: 100px;
+    text-align: center;
+    margin-top:10%;
+}
+
+#techs{
+    height: 750px;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar-collapse {
+        margin-left: 0%;
+    }
+
+    #home {
+        background-image: url(imgages/bg.png);
+        background-size: cover;
+    }
+
+    #about {
+        /*
+        background-image: url(imgages/bg2.png);
+        background-size: cover;*/
+        
+    }
+    #techs{
+        height: 1348px;
+    }
+
+    #img-bhanuka{
+        padding-left: 34%;
+    }
+
+    .tech-icon{
+        margin-left: 190px;
+        margin-bottom: 60px;
+    }
+
+    #bootstrap{
+        margin-left: 130px;
+        margin-top:60px;
+    }
+
+    #js{
+        margin-left: 195px;
+    }
+}
